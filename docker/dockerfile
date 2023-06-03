@@ -1,0 +1,8 @@
+FROM python:3.11.3
+
+RUN python3 -m pip install --user pipx
+RUN python3 -m pipx ensurepath
+
+RUN ~/.local/bin/pipx install poetry
+
+WORKDIR /app

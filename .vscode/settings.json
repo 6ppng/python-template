@@ -1,0 +1,28 @@
+{
+  "python.terminal.activateEnvironment": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.rulers": [
+      79
+    ],
+    "editor.tabSize": 4
+  },
+  "python.formatting.provider": "none",
+  "black-formatter.args": [
+    "--line-length=79"
+  ],
+  "isort.args": [
+    "--profile",
+    "black"
+  ],
+  "flake8.args": [
+    "--ignore=E501,W503",
+    "--max-line-length=79",
+    "--max-cognitive-complexity=7"
+  ],
+  "python.analysis.typeCheckingMode": "basic"
+}

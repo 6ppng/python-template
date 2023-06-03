@@ -1,0 +1,21 @@
+{
+  "dockerComposeFile": [
+    "../compose.yml"
+  ],
+  "service": "app",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.black-formatter",
+        "EditorConfig.EditorConfig",
+        "ms-python.flake8",
+        "mhutchie.git-graph",
+        "ms-python.isort",
+        "MS-CEINTL.vscode-language-pack-ja",
+        "ms-python.python"
+        // "ms-python.mypy-type-checker" 未リリース
+      ]
+    }
+  }
+}
